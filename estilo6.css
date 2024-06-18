@@ -1,0 +1,154 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 75%;
+    margin: auto;
+    height: 2500px;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 20px;
+}
+.menu li{
+    padding: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+.menu li a:hover{
+    opacity: 0.7;
+}
+h1{
+    font-size: 5em;
+    letter-spacing: 7px;
+    padding: 20px;
+    font-style: italic;
+    text-align: center;
+}
+h2{
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.cabeza{
+    margin: auto;
+    width: 1300px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 20;
+    border: 1px solid white;
+}
+.cabeza ul a{
+    color: rgb(231, 119, 119);
+}
+h1 a{
+    color: rgb(44, 42, 42);
+    text-decoration: none;
+}
+h1 a:hover{
+    opacity: 50%;
+}
+.cuerpo{
+    margin: auto;
+    width: 90%;
+    height: 50%;
+    background: linear-gradient(to bottom right,rgb(231, 119, 119),#fff);
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.fila-1, .fila-2 {
+    flex: 1 1 45%;
+    box-sizing: border-box;
+}
+table {
+    border-collapse: collapse;
+    width: 30em;
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+}
+tr{
+    border: #fff;
+}
+td{
+    padding: 12px;
+}
+.img-1{
+    position: relative;
+    left: 28%;
+    bottom: 60px;
+    height: 170px;
+    border: 6px solid #fff;
+}
+form{
+    position: relative;
+    left: 27%;
+}
+form p{
+    margin: 0;
+}
+form input{
+    margin-bottom: 8px;
+    width: 300px;
+    padding: 6px;
+}
+#message{
+    width: 310px;
+    max-width: 310px;
+    resize: horizontal;
+}
+.boton{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    font-size: 17px;
+    margin-top: 8px;
+    width: 316px;
+}
+.mapa{
+    position: relative;
+    left: 14%;
+}
+.especial-1{
+    position: relative;
+    bottom: 80px;
+}
+.especial-2{
+    position: relative;
+    bottom: 50px;
+    color: rgb(34, 34, 155);
+}
+.loco{
+    color: rgb(34, 34, 155);
+}
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.redes li a{
+    padding: 10px;
+    font-size: 25px;
+}
+.redes li a:hover{
+    opacity: 0.8;
+}
+.redes li a i{
+    filter: invert(60%);
+}
+
+
+
